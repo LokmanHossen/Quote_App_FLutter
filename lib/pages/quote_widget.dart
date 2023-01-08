@@ -38,9 +38,7 @@ class QuoteWidget extends StatelessWidget {
           Text(
             quote,
             style: TextStyle(
-              color: Colors.white,
-              fontSize: 30,
-            ),
+                color: Colors.white, fontSize: 30, fontFamily: 'IndieFlower'),
           ),
           SizedBox(
             height: 20.0,
@@ -50,6 +48,7 @@ class QuoteWidget extends StatelessWidget {
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
+              fontSize: 20.0,
             ),
           ),
           Spacer(),
